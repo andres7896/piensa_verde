@@ -1,24 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { 
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom'
+import Navbar from './views/Navbar';
+import Services from './views/Services'
+import Conferences from './views/Conferences'
+import Contact from './views/Contact'
+import About from './views/About'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Barra superior de navegación */}
+      <Navbar />
+
+      {/* Routas de navegación */}
+      <Router>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/contact'>
+          <Contact />
+        </Route>
+        <Route path='/conferences'>
+          <Conferences />
+        </Route>
+        <Route path='/service'>
+          <Services />
+        </Route>
+        {/* Rota para que redireccione a la pagina principal 
+            Pendiente por Revicion de la Perra de Caliche
+        <Route path='/'>
+          <App />
+        </Route>*/}
+      </Router>
     </div>
   );
 }
