@@ -1,21 +1,19 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import LandingPage from '../view/Landing';
-import ConferencePage from '../view/Conference';
-import EcoturismPage from '../view/Ecoturism';
-import ProvidersPage from '..view/Providers';
-import AboutPage from '../view/About';
-import ContactPage from '../view/Contact';
-import SuccessPage from '../view/Success';
-import ErrorPage from '../view/404';
+import LandingPage from '../pages/landing/Landing';
+import ConferencePage from '../pages/meets/Meets';
+import TravelsPage from '../pages/travels/Travels';
+import AboutPage from '../pages/about/About';
+import ContactPage from '../pages/contact/Contact';
+import SuccessPage from '../pages/success/Success';
+import ErrorPage from '../pages/404/Error';
 
 
 const AppRouter = () => (
   <Router>
     <AboutPage path="/about" />
-    <ConferencePage path="conference"/>
-    <EcoturismPage path="ecoturism"/>
-    <ProvidersPage path="providers"/>
+    <ConferencePage path="conferences"/>
+    <TravelsPage path="travels"/>
     <ContactPage path="/contact" />
     <SuccessPage path="/success" />
     <ErrorPage path="/404" default />
