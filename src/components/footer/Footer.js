@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import '../footer/Footer';
+import './Footer.css';
 
 
 export default class Footer extends Component {
-    render() {
-        return (
-             <footer>
+  render() {
+    return (
+      <footer>
         <div className="main-content">
           <div className="left box">
-            <h2>About us</h2>
+            <h2>Integrantes</h2>
             <div className="content">
               <p>CodinNepal is a YouTube channel where you can learn web designing, web development, ui/ux designing, html css tutorial, hover animation and effects, javascript and jquery tutorial and related so on.</p>
               <div className="social">
@@ -63,5 +63,5 @@ export default class Footer extends Component {
         </div>
       </footer>
     );
-    }
+  }
 }
