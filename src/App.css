@@ -1,5 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 *{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Syne', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;    
+  height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #D9D9D9;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #D9D9D9;
 }
