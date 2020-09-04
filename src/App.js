@@ -15,29 +15,7 @@ import About from './views/About'
 function App() {
   return (
     <div className="App">
-      {/* Barra superior de navegación */}
-      <Navbar />
 
-      {/* Routas de navegación */}
-      <Router>
-        <Route path='/about'>
-          <About />
-        </Route>
-        <Route path='/contact'>
-          <Contact />
-        </Route>
-        <Route path='/conferences'>
-          <Conferences />
-        </Route>
-        <Route path='/service'>
-          <Services />
-        </Route>
-        {/* Rota para que redireccione a la pagina principal 
-            Pendiente por Revicion de la Perra de Caliche
-        <Route path='/'>
-          <App />
-        </Route>*/}
-      </Router>
     </div>
   );
 }
