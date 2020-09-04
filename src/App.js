@@ -1,21 +1,11 @@
 import React from 'react';
 import './App.css';
-import { 
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from 'react-router-dom'
-import Navbar from './views/Navbar';
-import Services from './views/Services'
-import Conferences from './views/Conferences'
-import Contact from './views/Contact'
-import About from './views/About'
+import Router from './services/router'
 
 function App() {
   return (
     <div className="App">
-
+      <Router />
     </div>
   );
 }
