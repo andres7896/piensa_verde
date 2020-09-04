@@ -9,8 +9,7 @@ export default class Footer extends Component {
         <div className="main-content">
           <div className="left box">
             <div className="content">
-        
-
+            <img src="../image/icons/garden.png"/>
             </div>
           </div>
           <div className="center box">
