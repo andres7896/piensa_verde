@@ -31,6 +31,11 @@
     font-size: 18px;
 }
 
+.copyright h3{
+    font-size: 18px;
+    margin-top: 5px
+}
+
 .info{
     border-left: 1px solid #0ABF04;
     margin-left: 150px;
@@ -59,5 +64,9 @@
 
 .social_media img{
     margin: 7px;
+}
+
+.social_media img:hover{
+    cursor: pointer;
 }
 
