@@ -99,7 +99,7 @@ export default class Landing extends Component {
                                     <span>Improvise</span>
                                 </div>
                             </div>
-                            <img src="story-bg.jpg" alt="Story" className="story-img" />
+                            <img src={uno} alt="Story" className="story-img" />
                         </div>
                         <div className="box">
                             <h3>From the beginning.</h3>
