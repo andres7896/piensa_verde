@@ -15,16 +15,16 @@ export default class Header extends Component {
                     <div className='menu'>
                         <Link to='/travels' className='btnNav'>
                             Viajes
-                    </Link>
+                        </Link>
                         <Link to='/conferences' className='btnNav'>
                             Conferencias
-                    </Link>
+                        </Link>
                         <Link to='/contact' className='btnNav'>
                             Contacto
-                    </Link>
+                        </Link>
                         <Link to='/about' className='btnNav'>
                             Acerca de
-                    </Link>
+                        </Link>
                     </div>
                 </nav>
             </div>

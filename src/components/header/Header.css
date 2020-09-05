@@ -6,6 +6,7 @@
 
 .header{
     width: 100%;
+    position: static;
 }
 
 nav {
@@ -44,10 +45,14 @@ nav {
     margin: 0 5px 0 5px;
     padding: 7px;
     font-size: 18px;
+    border-bottom: 1px solid#0ABF04;
 }
 
 .btnNav:hover{
-    opacity: 0.6;
+    opacity: 0.8;
+    background-color: #0ABF04;
     border-bottom: 1px solid #7DD979;
-    transition: .5s;
+    color: white;
+    transition: all .3s ease-out;
+    border-radius: 10px;
 }

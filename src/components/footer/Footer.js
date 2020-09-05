@@ -15,6 +15,7 @@ export default class Footer extends Component {
                     <div className='copyright'>
                         <h2><strong> Artemi </strong></h2>
                         <p><em> Todos los derechos reservados © 2020 </em></p>
+                        <h3><strong>Portal de Piensa Verde</strong></h3>
                     </div>
                 </section>
                 <section className='info'>
