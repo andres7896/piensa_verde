@@ -3,6 +3,10 @@ import './Landing.css'
 
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
+import uno from '../../image/places/1.jpeg'
+import dos from '../../image/places/2.jpg'
+import tres from '../../image/places/3.jpg'
+import cuatro from '../../image/places/4.jpg'
 
 
 export default class Landing extends Component {
@@ -10,11 +14,57 @@ export default class Landing extends Component {
         return (
             <div className='container'>
                 <Header />
+
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" defaultChecked />
+                    <input type="radio" name="slider" id="slide2" />
+                    <input type="radio" name="slider" id="slide3" />
+                    <input type="radio" name="slider" id="slide4" />
+                    <div id="slides">
+                        <div id="overflow">
+                            <div className="inner">
+                                <div className="slide slide_1">
+                                    <div className="slide-content">
+                                    <img src={uno} alt="" />
+                                    </div>
+                                </div>
+                                <div className="slide slide_2">
+                                    <div className="slide-content">
+                                    <img src={dos} alt="" />
+                                    </div>
+                                </div>
+                                <div className="slide slide_3">
+                                    <div className="slide-content">
+                                    <img src={tres} alt="" />
+                                    </div>
+                                </div>
+                                <div className="slide slide_4">
+                                    <div className="slide-content">
+                                    <img src={cuatro} alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label htmlFor="slide1" />
+                        <label htmlFor="slide2" />
+                        <label htmlFor="slide3" />
+                        <label htmlFor="slide4" />
+                    </div>
+                    <div id="bullets">
+                        <label htmlFor="slide1" />
+                        <label htmlFor="slide2" />
+                        <label htmlFor="slide3" />
+                        <label htmlFor="slide4" />
+                    </div>
+                </div>
+
                 <div className="wrapper">
                     <header className="main-header">
                         <div className="content">
-                            <h1>A new Generation Smartphone.</h1>
-                            <span>Dual Camera. Clearer Photos</span>
+                            <h1>La naturaleza es el sostén de todos los seres y de la vida en el universo</h1>
+                            <span>Dalai Lama</span>
                             <a href="#" className="start">Get Started</a>
                         </div>
                     </header>
