@@ -14,7 +14,7 @@ export default class Header extends Component {
                     </Link>
                     <div className='menu'>
                         <Link to='/travels' className='btnNav'>
-                            Viajes
+                            Lugares
                         </Link>
                         <Link to='/conferences' className='btnNav'>
                             Conferencias
