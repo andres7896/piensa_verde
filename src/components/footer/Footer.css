@@ -8,9 +8,6 @@
     justify-content: flex-start;
     align-items: center;
     height: 280px;
-    position: fixed;
-    z-index: 0;
-    bottom: 0;
 }
 
 .brand{
