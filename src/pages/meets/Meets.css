@@ -1,0 +1,88 @@
+.container-2{
+    padding-top: 0;
+}
+
+.cards_container h1{
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card_meets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.card_meets img{
+    width: 400px;
+    height: 100%;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.card_info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.card_info span{
+    margin: 5px 0 5px 0;
+}
+
+.card_info h3{
+    margin: 5px 0 5px 0;
+}
+
+.card_info p{
+    text-align: justify;
+    width: 95%;
+}
+
+.card_info h4{
+    margin: 10px 0 10px 0;
+}
+
+.price{
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+
+.container_btnCard-1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnCard-1{
+    width: 100%;
+    max-width: 150px;
+    font-size: 18px;
+    border: 1px solid #0ABF04;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.btnCard-1:hover{
+    opacity: 0.8;
+    background-color: #0ABF04;
+    border-bottom: 1px solid #7DD979;
+    color: white;
+    transition: all .3s ease-out;
+    border-radius: 10px;
+}
