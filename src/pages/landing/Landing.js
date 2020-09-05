@@ -65,20 +65,6 @@ export default class Landing extends Component {
                             <input type="submit" defaultValue="Subscribe" className="btn" />
                         </div>
                     </section>
-                    <section className="contact-wrapper">
-                        <div className="contact">
-                            <i className="fa fa-map-marker" />
-                            <p>Kelley A. Fleming 196 Woodside Circle Mobile, FL 36602</p>
-                        </div>
-                        <div className="contact">
-                            <i className="fa fa-globe" />
-                            <p>something@someone.com</p>
-                        </div>
-                        <div className="contact">
-                            <i className="fa fa-phone" />
-                            <p>0123456789</p>
-                        </div>
-                    </section>
                 </div>
                 <Footer />
             </div>
