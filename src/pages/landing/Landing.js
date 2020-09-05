@@ -8,7 +8,7 @@ import Guatape from '../../image/places/guatape.jpg';
 import Dalai from '../../image/icons/dalai.png'
 
 export default class Landing extends Component {
-    render() {
+    render () {
         return (
             <div className='container-1'>
                 <div id="slider">
