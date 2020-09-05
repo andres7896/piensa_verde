@@ -12,7 +12,7 @@ export default class About extends Component {
                 <section className='about_container'>
                     <div className='about'>
                         <article>
-                            <h1><strong> Artemi </strong></h1>
+                            <h1><strong> Gea </strong></h1>
                             <p>
                                 Artemi es un portal de la empresa <em><strong>Piensa Verder</strong></em>, la cual se enfoca en incentivar el Ecoturismo a nivel nacional e internaciona,
                                 con el fin no solo de apoyar el turismo sino tambien hacer que este contribuya a la conservación del planeta.

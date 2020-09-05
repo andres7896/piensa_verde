@@ -8,7 +8,7 @@ import Guatape from '../../image/places/guatape.jpg';
 import Dalai from '../../image/icons/dalai.png'
 
 export default class Landing extends Component {
-    render() {
+    render () {
         return (
             <div className='container-1'>
                 <div id="slider">
@@ -96,7 +96,7 @@ export default class Landing extends Component {
                         <div className="story-wrapper">
                             <div className="story-text">
                                 <div>
-                                    <h1>Artemi - Portal de Piensa Verder</h1>
+                                    <h1>Gea - Portal de Piensa Verde</h1>
                                     <span>Promoviendo el Ecoturismo</span>
                                 </div>
                             </div>
