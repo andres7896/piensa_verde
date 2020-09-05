@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import './Landing.css'
 
-import Header from '../../components/header/Header';
-import Footer from '../../components/footer/Footer';
 import uno from '../../image/places/1.jpeg'
 import dos from '../../image/places/2.jpg'
 import tres from '../../image/places/3.jpg'
 import cuatro from '../../image/places/4.jpg'
 
-
 export default class Landing extends Component {
     render() {
         return (
             <div className='container'>
-                <Header />
-
                 <div id="slider">
                     <input type="radio" name="slider" id="slide1" defaultChecked />
                     <input type="radio" name="slider" id="slide2" />
@@ -25,22 +20,22 @@ export default class Landing extends Component {
                             <div className="inner">
                                 <div className="slide slide_1">
                                     <div className="slide-content">
-                                    <img src={uno} alt="" />
+                                        <img src={uno} alt="" />
                                     </div>
                                 </div>
                                 <div className="slide slide_2">
                                     <div className="slide-content">
-                                    <img src={dos} alt="" />
+                                        <img src={dos} alt="" />
                                     </div>
                                 </div>
                                 <div className="slide slide_3">
                                     <div className="slide-content">
-                                    <img src={tres} alt="" />
+                                        <img src={tres} alt="" />
                                     </div>
                                 </div>
                                 <div className="slide slide_4">
                                     <div className="slide-content">
-                                    <img src={cuatro} alt="" />
+                                        <img src={cuatro} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +111,6 @@ export default class Landing extends Component {
                         </div>
                     </section>
                 </div>
-                <Footer />
             </div>
         )
     }

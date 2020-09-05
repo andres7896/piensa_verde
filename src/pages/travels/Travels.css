@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     position: relative;
-    top: 70px;
-    bottom: 50px;
-    margin-bottom: 15px;
+    margin-top: 70px;
 }
 
 .cards_background{
     background-color: #003D2E;
     width: 100%;
     height: auto;
+    bottom: 100px;
 }
 
 .cards_container{
