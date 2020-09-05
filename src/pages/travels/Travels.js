@@ -28,7 +28,7 @@ export default class Travels extends Component {
                             <div className='container_btnCard'>
                                 <Link to='/contact' className='btnCard'>
                                     Info
-                        </Link>
+                            </Link>
                             </div>
                         </div>
                         <div className='card'>
