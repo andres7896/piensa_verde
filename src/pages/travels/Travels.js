@@ -49,7 +49,7 @@ export default class Travels extends Component {
                             <span> Publicado hace 4 semanas </span>
                             <h3> Caño cristales </h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Caño Cristales (La Macarena, Meta, Colombia) es considerado por muchos como el “Río más Hermoso del Mundo”. Pareciera exagerado el cumplido, pero solamente visitándolo es posible dimensionar la belleza de este paraíso colombiano. Durante muchos años ha estado totalmente cerrado al turismo. Pero hoy es posible visitarlo con total tranquilidad y con vuelos directos desde Bogotá y Villavicencio.
                             </p>
                             <div className='container_btnCard'>
                                 <Link to='/contact' className='btnCard'>

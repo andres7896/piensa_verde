@@ -12,9 +12,9 @@ export default class About extends Component {
                 <section className='about_container'>
                     <div className='about'>
                         <article>
-                            <h1><strong> Artemi </strong></h1>
+                            <h1><strong> Gea </strong></h1>
                             <p>
-                                Artemi es un portal de la empresa <em><strong>Piensa Verder</strong></em>, la cual se enfoca en incentivar el Ecoturismo a nivel nacional e internaciona,
+                                Gea es un portal de la empresa <em><strong>Piensa Verde</strong></em>, la cual se enfoca en incentivar el Ecoturismo a nivel nacional e internaciona,
                                 con el fin no solo de apoyar el turismo sino tambien hacer que este contribuya a la conservación del planeta.
                                 Este portal busca centralizar la infromación relacionada con el <em><strong>Ecoturismo</strong></em>, como los lugares en los cuales se puede realizar
                                 turismo ecológico, cuales son las actividades que se pueden hacer en estos lugares, los talleres que se hacen para motivar el respeto por la naturaleza
@@ -28,7 +28,7 @@ export default class About extends Component {
                     </div>
                     <div className='ecoturism'>
                         <article>
-                            <h2>¿Que es <strong>Ecoturismo</strong>?</h2>
+                            <h2>¿Qué es <strong>Ecoturismo</strong>?</h2>
                             <p>
                                 El Ecoturismo es una modalidad del Turismo de Naturaleza que surgió como alternativa al turismo tradicional o también llamado “de masas”,
                                 muchas veces depredador hacia las comunidades donde se desarrolla. Tiene sus fundamentos en el desarrollo sustentable de las naciones;

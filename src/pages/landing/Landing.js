@@ -96,7 +96,7 @@ export default class Landing extends Component {
                         <div className="story-wrapper">
                             <div className="story-text">
                                 <div>
-                                    <h1>Artemi - Portal de Piensa Verder</h1>
+                                    <h1>Gea - Portal de Piensa Verde</h1>
                                     <span>Promoviendo el Ecoturismo</span>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export default class Landing extends Component {
                         <div className="box">
                             <h3>Nuestro Objetivo</h3>
                             <br />
-                            <p>Promover la conservación del medio ambien en Colombia y el mundo por medio del Ecoturismo.</p>
+                            <p>Promover la conservación del medio ambiente en Colombia y el mundo por medio del Ecoturismo.</p>
                         </div>
                     </section>
                 </div>
