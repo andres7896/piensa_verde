@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #003D2E;
+    background-image: linear-gradient(to left, #119071, #53DB50);
 }
 
 .about_container{
@@ -37,7 +37,7 @@
 }
 
 .about article p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .organizations{

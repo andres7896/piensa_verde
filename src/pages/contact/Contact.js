@@ -7,7 +7,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='container'>
-                <div className='contact'>
+                <div className='contact-1'>
                     <div className='message_icon'>
                         <img src={Message} alt='Mensaje' />
                     </div>
