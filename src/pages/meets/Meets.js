@@ -28,7 +28,7 @@ export default class Meets extends Component {
                                 </p>
                                 <span className='price'><strong>Precio: </strong> $ 100.000</span>
                                 <div className='container_btnCard-1'>
-                                    <Link to='/contact' className='btnCard-1'>
+                                    <Link to='/developing' className='btnCard-1'>
                                         Reservar
                                     </Link>
                                 </div>
@@ -48,7 +48,7 @@ export default class Meets extends Component {
                                 </p>
                                 <span className='price'><strong>Precio: </strong> $ 300.000</span>
                                 <div className='container_btnCard-1'>
-                                    <Link to='/contact' className='btnCard-1'>
+                                    <Link to='/developing' className='btnCard-1'>
                                         Reservar
                                     </Link>
                                 </div>
@@ -68,7 +68,7 @@ export default class Meets extends Component {
                                 </p>
                                 <span className='price'><strong>Precio: </strong> $ 1'000.000</span>
                                 <div className='container_btnCard-1'>
-                                    <Link to='/contact' className='btnCard-1'>
+                                    <Link to='/developing' className='btnCard-1'>
                                         Reservar
                                     </Link>
                                 </div>
@@ -88,7 +88,7 @@ export default class Meets extends Component {
                                 </p>
                                 <span className='price'><strong>Precio: </strong> $ 1'500.000</span>
                                 <div className='container_btnCard-1'>
-                                    <Link to='/contact' className='btnCard-1'>
+                                    <Link to='/developing' className='btnCard-1'>
                                         Reservar
                                     </Link>
                                 </div>
@@ -108,7 +108,7 @@ export default class Meets extends Component {
                                 </p>
                                 <span className='price'><strong>Precio: </strong> $ 3'500.000</span>
                                 <div className='container_btnCard-1'>
-                                    <Link to='/contact' className='btnCard-1'>
+                                    <Link to='/developing' className='btnCard-1'>
                                         Reservar
                                     </Link>
                                 </div>

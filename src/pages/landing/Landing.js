@@ -96,8 +96,8 @@ export default class Landing extends Component {
                         <div className="story-wrapper">
                             <div className="story-text">
                                 <div>
-                                    <h1>Gea - Portal de Piensa Verde</h1>
-                                    <span>Promoviendo el Ecoturismo</span>
+                                    <h1>Artemis - Portal de Ecoturismo</h1>
+                                    <span>Promoviendo el Ecoturismo en Colombia y el mundo.</span>
                                 </div>
                             </div>
                             <img src={Ocean} alt="Story" className="story-img" />

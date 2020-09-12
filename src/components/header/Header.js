@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <nav>
                     <Link to='/' className='logo'>
                         <img src={Logo} alt='Logo' />
-                        <h1> Gea </h1>
+                        <h1> Artemis </h1>
                     </Link>
                     <div className='menu'>
                         <Link to='/travels' className='btnNav'>

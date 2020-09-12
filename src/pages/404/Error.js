@@ -10,7 +10,7 @@ export default class Error extends Component {
             <div className='error_container'>
                 <img src={ Error404 } alt='Error 404'/>
                 <h1> 404 NOT FOUND PAGE </h1>
-                <p><em> Esta intentando acceder al una ruta no disponible </em></p>
+                <p><em> Esta intentando acceder a una ruta no disponible </em></p>
                 <Link to='/' className='btnReturn'>
                     Regresar
                 </Link>

@@ -1,4 +1,4 @@
-.error_container{
+.dev_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,15 +7,15 @@
     height: 100%;
     background-image: linear-gradient(to left, #119071, #53DB50);
     color: white;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
-.error_container img{
-    max-width: 300px;
-    margin: 30px 0 30px 0;
+.dev_container img{
+    max-width: 350px;
+    margin-top: 30px;
 }
 
-.error_container h1{
+.dev_container h1{
     font-size: 50px;
     padding: 0 0 15px 0;
     max-width: 1000px;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.error_container p{
+.dev_container p{
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -32,7 +32,7 @@
     margin: 0 5px 0 5px;
     padding: 7px;
     font-size: 18px;
-    border: 1px solid#0ABF04;
+    border: 1px solid#fff;
     text-decoration: none;
     color: white;
     margin-bottom: 31px;
